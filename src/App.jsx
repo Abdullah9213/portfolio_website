@@ -378,14 +378,14 @@ function Hero(){
       </motion.div>
 
       {/* HERO CONTENT — left-aligned, overlapping photo */}
-      <div style={{position:"relative",zIndex:3,padding:"0 2.5rem 5rem",maxWidth:"65vw"}}>
+      <div style={{position:"relative",zIndex:3,padding:"3rem 2.5rem 5rem",maxWidth:"65vw"}}>
 
         {/* Eyebrow */}
         <motion.div
           initial={{opacity:0,x:-20}}
           animate={{opacity:1,x:0}}
           transition={{delay:0.1,duration:0.7,ease:[0.16,1,0.3,1]}}
-          style={{display:"flex",alignItems:"center",gap:"0.75rem",marginBottom:"2rem"}}>
+          style={{display:"flex",alignItems:"center",gap:"0.75rem",marginBottom:"1rem"}}>
           <div style={{width:28,height:1,background:T.gold}}/>
           <span className="mono" style={{fontSize:"0.68rem",color:T.gold,letterSpacing:"0.2em",textTransform:"uppercase"}}>
             Software Engineer · Islamabad, PK · Class of 2026
@@ -398,7 +398,7 @@ function Hero(){
           onMouseMove={onNameMove}
           onMouseLeave={onNameLeave}
           onMouseEnter={()=>setHovName(true)}
-          style={{x:smx,y:smy,marginBottom:"2.5rem"}}>
+          style={{x:smx,y:smy,marginBottom:"1.5rem"}}>
 
           <motion.h1
             initial={{opacity:0}}
