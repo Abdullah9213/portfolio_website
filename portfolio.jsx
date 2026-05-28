@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, useMotionValue, useSpring, useTransform, useScroll, useInView, animate, stagger } from "framer-motion";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 const FONTS = `
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=DM+Serif+Display:ital@0;1&display=swap');
 @import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700,800,900&f[]=cabinet-grotesk@400,500,700,800&display=swap');
