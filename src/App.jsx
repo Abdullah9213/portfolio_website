@@ -637,8 +637,8 @@ function Work(){
     {
       name:"Mandi Express",
       tag:"MLOps pipeline",
-      tagline:"Full automated price prediction pipeline for every Pakistani mandi. Live monitoring.",
-      metrics:["Nationwide coverage","Live drift detection","Continuous retraining"],
+      tagline:"Full automated price prediction pipeline for every Pakistani mandi. Live monitoring .",
+      metrics:["10,000 daily records Ingested and preprocessed","Nationwide coverage","Live drift detection","Continuous retraining"],
       stack:["Airflow","MLflow","DVC","AWS S3","Prometheus","Grafana","GitHub Actions","Docker"],
     },
     {
